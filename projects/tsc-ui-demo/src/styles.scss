@@ -1,0 +1,60 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+$page-bg-color: #eee;
+$section-bg-color: #fff;
+
+$stage-width: 1140px;
+
+body {
+    padding: 0;
+    margin: 0;
+
+    background-color: $page-bg-color;
+
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: $section-bg-color;
+    
+    .header-container {
+        margin: auto;
+        width: $stage-width;
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    
+        
+        .app-title {
+            font-size: 16pt;
+            font-weight: bold;
+            width: 150px;
+        }
+    
+        .header-right-section {
+            button {
+                font-size: 14px;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+main {
+    margin: 36px auto;
+    padding: 36px;
+    width: $stage-width;
+
+    background-color: $section-bg-color;
+}
+
+footer {
+    padding: 48px;
+    text-align: center;
+    background-color: $section-bg-color;
+
+    font-size: 14px;
+}
