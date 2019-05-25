@@ -1,27 +1,6 @@
-# TscUi
+# TSC UI Component
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+TSC UI Components are additional UI controls, widgets, and behaviors that can be used in a an Angular application. It does not replace any Angular UI Components such as Angular Material or Bootstrap. It is built on top of Angular Material and, thus, it is using the Angular Material controls and styles to create the components. The reason for creating these controls in this library is because currently, there is either no available Angular equivalent implementation or no formal reusable component available (i.e. found as a solution in forums). Another reason that these controls are available here is due to some reasons that the currently available equivalent controls may lack certain features or does not satisfy certain requirements.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Below are the list of components currently available:
+* Message Box
