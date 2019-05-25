@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppUiModule } from './app-ui.module';
 import { AppComponent } from './app.component';
 import { MessageBoxDemoComponent } from './components/message-box-demo/message-box-demo.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MessageBoxDemoComponent
+    MessageBoxDemoComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

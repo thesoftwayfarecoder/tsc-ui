@@ -31,11 +31,16 @@ header {
             font-size: 16pt;
             font-weight: bold;
             width: 150px;
+
+            a {
+                color: #000;
+                text-decoration: none;
+            }
         }
     
         .header-right-section {
             button {
-                font-size: 14px;
+                font-size: 10pt;
                 font-weight: bold;
                 text-transform: uppercase;
             }
@@ -49,6 +54,12 @@ main {
     width: $stage-width;
 
     background-color: $section-bg-color;
+    font-size: 12pt;
+
+    h1 {
+        font-size: 20pt;
+        font-weight: bold;
+    }
 }
 
 footer {
