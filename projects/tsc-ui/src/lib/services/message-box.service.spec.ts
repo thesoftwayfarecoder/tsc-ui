@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { TscUiService } from './tsc-ui.service';
+import { MessageBoxService } from './message-box.service';
 
-describe('TscUiService', () => {
+describe('MessageBoxService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: TscUiService = TestBed.get(TscUiService);
+    const service: MessageBoxService = TestBed.get(MessageBoxService);
     expect(service).toBeTruthy();
   });
 });

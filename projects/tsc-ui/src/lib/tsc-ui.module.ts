@@ -1,10 +1,14 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { TscUiComponent } from './tsc-ui.component';
+
+import { AppUiModule } from './app-ui.module';
+
+import { MessageBoxComponent } from './components/message-box/message-box.component';
 
 @NgModule({
-  declarations: [TscUiComponent],
-  imports: [
-  ],
-  exports: [TscUiComponent]
+  declarations: [ MessageBoxComponent] ,
+  imports: [ CommonModule, AppUiModule ],
+  exports: [ MessageBoxComponent ],
+  entryComponents: [ MessageBoxComponent ]
 })
 export class TscUiModule { }

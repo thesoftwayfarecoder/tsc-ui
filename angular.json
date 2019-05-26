@@ -8,6 +8,11 @@
       "sourceRoot": "projects/tsc-ui/src",
       "projectType": "library",
       "prefix": "tsc",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
