@@ -5,10 +5,11 @@
     .message-box {
         .mat-dialog-title {
             padding: 8px 12px;
+            color: #fff;
             background: #102598;
+            border-bottom: 1px solid #e5e5e5;
             font-size: 10pt;
             font-weight: bold;
-            color: #fff;
         }
     
         .mat-dialog-content {
